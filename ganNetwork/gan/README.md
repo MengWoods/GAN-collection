@@ -10,10 +10,9 @@ GANs model is developed by _Ian Goodfellow_ and his colleagues in 2014. It consi
 
 **Adversarial Nets**
 
-In the framework, both models are multilayer perceptrons. 
-
-Input data is $x$. Generator's distribution is $p_g$. Input noise variables $p_z(z)$. Mapping to data space is $G(z;\theta_g)$, where $G$ is a [differentiable function](https://en.wikipedia.org/wiki/Differentiable_function) represented by neural network with parameters $\theta_g$. Second neural network $D(x;\theta_d)$ outputs a single scalar, $D(x)$ represents the probability that $x$ came from the input data rather than $p_g$.
-The **training purpose** is to train $D$ to maximize the probability of assigning the correct label to the input data, train $G$ to minimize $\log(1-D(G(z)))$.
+In the framework, both models are multilayer perceptrons.   
+Input data is $x$. Generator's distribution is $p_g$. Input noise variables $p_z(z)$. Mapping to data space is $G(z;\theta_g)$, where $G$ is a [differentiable function](https://en.wikipedia.org/wiki/Differentiable_function) represented by neural network with parameters $\theta_g$. Second neural network $D(x;\theta_d)$ outputs a single scalar, $D(x)$ represents the probability that $x$ came from the input data rather than $p_g$.  
+The **training purpose** is to train $D$ to maximize the probability of assigning the correct label to the input data, train $G$ to minimize $\log(1-D(G(z)))$.  
 The **value function** is $V(G,D)$:
 
 $$
