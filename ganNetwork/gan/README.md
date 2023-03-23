@@ -1,6 +1,7 @@
 # GANs
 
-> GANs (Generative Adversarial Nets) (2014) [[paper]](https://arxiv.org/pdf/1406.2661.pdf) [[Github]](https://github.com/goodfeli/adversarial)
+> GANs (Generative Adversarial Nets) (2014) [[paper]](https://arxiv.org/pdf/1406.2661.pdf) [[Github]](https://github.com/goodfeli/adversarial)  
+> "GANs have been an active topic of research in recent years. Facebook’s AI research director Yann LeCun called adversarial training “the most interesting idea in the last 10 years” in the field of machine learning."
 
 ## Introduction
 
